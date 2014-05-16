@@ -1,7 +1,13 @@
+/*
+ *= require_self
+ *= require_tree .
+ */
+
 @charset 'utf-8';
 
 ///////////////////////////////////////////////////////////////////////////////
 
+@import 'bootstrap';
 @import 'bourbon';
 @import 'neat';
 

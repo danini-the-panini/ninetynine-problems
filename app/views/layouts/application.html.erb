@@ -9,7 +9,15 @@
 </head>
 <body class="<%= body_class %>">
   <%= render 'flashes' -%>
-  <%= yield %>
+  <div class="container-narrow">
+    <div class="masthead">
+      <%= render 'layouts/user_header' %>
+      <h3 class="muted"><%= link_to "99 Problems", root_path %></h3>
+      <h5 class="muted">I got 99 problems, son, but listing them in chronological order ain't one.</h5>
+    </div>
+    <hr />
+    <%= yield %>
+  </div>
   <%= render 'javascript' %>
 </body>
 </html>
